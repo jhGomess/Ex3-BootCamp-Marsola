@@ -2,3 +2,20 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background: #e7e7e7;
+}
+
+.linha {
+  display: flex;
+}
+
+.item-produto {
+  background: #fff;
+}
+
+.item-produto img {
+  width: 284px;
+  height: 284px;
+}
