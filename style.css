@@ -22,7 +22,7 @@ body {
 .item-produto {
   background: #fff;
   width: 284px;
-  height: 512px;
+  height: 520px;
   border-radius: 3px;
   transition: box-whadow 0.2s ease-in-out;
 }
@@ -49,6 +49,7 @@ body {
   line-height: 1.2;
   padding: 2px 4px;
   margin: 8px 0 10px 0;
+  display: inline-block;
 }
 
 .preco-antigo {
@@ -58,13 +59,15 @@ body {
   text-decoration: line-through;
 }
 
+.preco-novo {
+  align-items: center;
+}
+
 .preco-novo h3 {
   color: #333;
   font-size: 24px;
   font-weight: 400;
   margin: 0 6px 0 0;
-
-  align-items: center;
 }
 
 .destaque {
@@ -75,6 +78,7 @@ body {
 
 .frete {
   align-items: center;
+  margin: 2px 0 12px 0;
 }
 
 .frete svg {
